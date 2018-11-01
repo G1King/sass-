@@ -1,0 +1,21 @@
+div.container {
+    color: thistle;
+    p{
+       color: aquamarine;
+         span {
+             color: bisque;
+         }
+    }
+   // div.container div.container-text 调用父容器 用 &
+    & &-text{
+        color: blueviolet;
+    }
+}
+//属性嵌套
+div.wrapper{
+    font: {
+        family: 'Courier New', Courier, monospace;
+        size: 30px;
+        weight:normal;
+    }
+}

@@ -1,0 +1,7 @@
+$imageStr: image1 image2 image3  ;
+
+@each $var in $imageStr {
+    .icon-#{$var}{
+        background: url(../images/#{$var}.png);
+    }
+}

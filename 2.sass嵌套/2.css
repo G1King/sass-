@@ -1,0 +1,22 @@
+div.container {
+  color: thistle;
+}
+
+div.container p {
+  color: aquamarine;
+}
+
+div.container p span {
+  color: bisque;
+}
+
+div.container div.container-text {
+  color: blueviolet;
+}
+
+div.wrapper {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight: normal;
+}
+/*# sourceMappingURL=2.css.map */

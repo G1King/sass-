@@ -1,0 +1,12 @@
+$count: (name: red,age: dark);
+
+@function name ($key) {
+  @if not map-has-key($map: $count, $key: $key) {
+   @error 'key  不存在';
+  }@else {
+    @return map-get($map: $count, $key: $key);
+  }
+}
+div{
+    background-color: name(name1)
+}

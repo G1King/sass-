@@ -1,0 +1,13 @@
+/*
+@function name(param1,param2,.....){
+}
+*/
+$colors: (light: red,dark: black);
+
+@function color($key) {
+    
+    @return map-get($map: $colors, $key: $key);
+}
+body {
+    background-color: color(light);
+}

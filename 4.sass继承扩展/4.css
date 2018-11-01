@@ -1,0 +1,31 @@
+.wrapper, span {
+  color: aquamarine;
+}
+
+.wrapper a, span a {
+  font-weight: bold;
+}
+
+span {
+  font-size: 20px;
+}
+
+/*
+css
+.wrapper,
+span {
+    color: aquamarine;
+}
+
+.wrapper a,
+span a {
+    font-weight: bold;
+}
+
+span {
+    font-size: 20px;
+}
+
+# sourceMappingURL=4.css.map 
+*/
+/*# sourceMappingURL=4.css.map */

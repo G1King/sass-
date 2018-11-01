@@ -1,0 +1,8 @@
+// @ white 条件 {}
+$count: 5;
+@while $count > 0 {
+    .item-#{$count} {
+        width:5px * $count;
+    }
+    $count : $count - 2;
+}

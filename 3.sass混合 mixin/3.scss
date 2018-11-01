@@ -1,0 +1,25 @@
+//定义  @mixin name(param1,param2,...) {
+    // 里面可以添加一些嵌套功能等
+// }
+// 使用mixin  @include name
+@mixin alert{
+    color: aqua;
+    background-color: #fff;
+    span{
+        color: aquamarine;
+    }
+}
+.wrapper {
+    @include alert;
+}
+@mixin alert1($text-color,$background) {
+     color: $text-color;
+     background-color: $background;
+     span {
+        //  darken 加深 颜色的 函数
+         color: darken($text-color, 10%);
+     }
+}
+.wrapper1 {
+    @include alert1(red,yellow);
+}

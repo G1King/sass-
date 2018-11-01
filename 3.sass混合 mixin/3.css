@@ -1,0 +1,18 @@
+.wrapper {
+  color: aqua;
+  background-color: #fff;
+}
+
+.wrapper span {
+  color: aquamarine;
+}
+
+.wrapper1 {
+  color: red;
+  background-color: yellow;
+}
+
+.wrapper1 span {
+  color: #cc0000;
+}
+/*# sourceMappingURL=3.css.map */

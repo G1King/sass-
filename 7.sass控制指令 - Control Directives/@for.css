@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*
+从 1  开始循环
+@for $var form <开始值> through （包含结束）<结束值> {} 
+@for $var form <开始值>  to（不包含结束） <结束值> {}
+*/
+.col-1 {
+  background-color: red;
+}
+
+.col-2 {
+  background-color: red;
+}
+
+.col-3 {
+  background-color: red;
+}
+
+.col-4 {
+  background-color: red;
+}
+/*# sourceMappingURL=@for.css.map */

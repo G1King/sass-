@@ -1,0 +1,29 @@
+//继承 使用 @extend 会继承所有和 .wrapper相关的 东西
+.wrapper {
+    color: aquamarine;
+}
+.wrapper a{
+    font-weight: bold;
+}
+span{
+    @extend .wrapper;
+    font-size: 20px;
+}
+/*
+css
+.wrapper,
+span {
+    color: aquamarine;
+}
+
+.wrapper a,
+span a {
+    font-weight: bold;
+}
+
+span {
+    font-size: 20px;
+}
+
+# sourceMappingURL=4.css.map 
+*/

@@ -1,0 +1,11 @@
+@import "reset";
+.wrapper {
+    color: red;
+}
+.wrapper a{
+    font-weight: bold;
+}
+span{
+    @extend .wrapper;
+    font-size: 20px;
+}
